@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+header{
+    min-height: 10vh;
+   
+}
+
+main{
+    min-height: 80vh;
+
+}
+footer{
+    min-height: 10vh;
+
+}
+
+/***LOGO***/
+.img-container{
+    width: 50px;
+    height: 50px;
+ display: flex;
+ justify-content: start;
+ align-items: center;
+    
+}
+/***PARTES***/
+.content-part-one{
+    background-color: white;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.content-part-two{
+    background-color: white;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.row-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.exclamacion-btns{
+    background-color: white;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.btn-copy{
+    background-color: white;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.img-content{
+    object-fit: contain;
+height: 50vh;
+width: 100vw;
+}
+
+.parrafos{
+    text-align: center;
+}
+.btn-copiar{
+    background-color: white;
+    color: #0A3871;
+}
+.btn-encriptar{
+    background-color: white;
+    color: #0A3871;
+}
+.btn-desencriptar{
+    background-color: white;
+    color: #0A3871;
+}
+.exclamacion-diamond{
+    color: grey;
+}
+.title{
+    color: #0A3871;
+}
+.foot{
+    color: #0A3871;
+}
