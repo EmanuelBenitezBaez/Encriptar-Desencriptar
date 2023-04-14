@@ -64,9 +64,10 @@ footer{
 }
 .img-content{
     object-fit: contain;
-height: 50vh;
+height: 35vh;
 width: 100vw;
 }
+
 
 .parrafos{
     text-align: center;
